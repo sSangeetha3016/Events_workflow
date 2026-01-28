@@ -10,7 +10,7 @@ on:
       - master
       - 'dev-*'
       - 'feat/**'
-    paths-ignore:
+    paths:
       '.github/workflows/*'
 
 jobs:
